@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to Game Programmer Books
 
-You can use the [editor on GitHub](https://github.com/GeniusDog-DYM/GameProgrammerNotes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+1. 计算机科学
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2. [编程语言](.\编程语言\编程语言.md)
 
-### Markdown
+3. 软件开发
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+4. 程序员的数学课
 
-```markdown
-Syntax highlighted code block
+5. 游戏编程
 
-# Header 1
-## Header 2
-### Header 3
+6. 游戏引擎开发
 
-- Bulleted
-- List
+7. 计算机图形学
 
-1. Numbered
-2. List
+8. 游戏音效
 
-**Bold** and _Italic_ and `Code` text
+9. 游戏物理和动画
 
-[Link](url) and ![Image](src)
-```
+10. 人工智能
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+11. 多人游戏编程
 
-### Jekyll Themes
+    
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GeniusDog-DYM/GameProgrammerNotes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    ## Reference
 
-### Support or Contact
+[miloyip /game-programmer]: https://github.com/miloyip/game-programmer
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
