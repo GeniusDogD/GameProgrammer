@@ -2,7 +2,7 @@
 
 1. 计算机科学
 
-2. [编程语言](.\编程语言\编程语言.md)
+2. [编程语言](./编程语言/编程语言.md)
 
 3. 软件开发
 
@@ -26,5 +26,5 @@
 
     ## Reference
 
-[miloyip /game-programmer]: https://github.com/miloyip/game-programmer
+[miloyip /game-programmer](https://github.com/miloyip/game-programmer)
 
