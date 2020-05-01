@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Game Programmer
 description: Game Programmer Books
+kramdown:
+  parse_block_html: true
