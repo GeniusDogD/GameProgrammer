@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+div#toc {
+    padding: 10px;
+    border: 1px solid #aaa;
+    display: inline-block !important;
+}
