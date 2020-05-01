@@ -1,4 +1,4 @@
 # Game Programmer
 
-[GitHub Pages]: https://geniusdogd.github.io/GameProgrammer/
+[Github Pages](https://geniusdogd.github.io/GameProgrammer/)
 
