@@ -3,8 +3,14 @@
 
 @import "{{ site.theme }}";
 
-div#toc {
-    padding: 10px;
-    border: 1px solid #aaa;
-    display: inline-block !important;
+#container {
+    position: fixed;
+    width: 300px;
+    right: 10px;
+    top: 20%;
+    background: grey;
+    opacity: .2;
+    /* color: #000; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
 }
