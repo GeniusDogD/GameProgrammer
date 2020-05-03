@@ -41,9 +41,14 @@
 	<script src="./toc.js"></script>
   
 	<script>
-		$(document).ready(function() {
-		$('#toc').toc();
-		});
+    window.onload(function() {
+      console.log(11111)
+      var container = document.getElementById('toc')
+      container.toc()
+    })
+		// $(document).ready(function() {
+		// $('#toc').toc();
+		// });
 	</script>
 	
   </body> 
