@@ -47,17 +47,17 @@
     var ul = document.createElement('ul')
     var idList = []
 
-    list.forEach(function(item, index) {
-      idList.push(item.getAttribute('id'))
-    })
+    list.forEach((item, index) => idList.push(item.getAttribute('id')))
 
     idList.forEach((item, index) => {
-      var li = document.createElement('li')
-      var linkItem = document.createElement('a')
-      linkItem.setAttribute('href', `#${item}`)
-      linkItem.innerHTML = item
-      li.appendChild(linkItem)
-      ul.appendChild(li)
+      if (item) {
+        var li = document.createElement('li')
+        var linkItem = document.createElement('a')
+        linkItem.setAttribute('href', `#${item}`)
+        linkItem.innerHTML = item
+        li.appendChild(linkItem)
+        ul.appendChild(li)
+      }
     })
 
     container.appendChild(ul)
