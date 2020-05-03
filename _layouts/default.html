@@ -54,6 +54,7 @@
       console.log(`#${item}`)
       var linkItem = document.createElement('a')
       linkItem.setAttribute('href', `#${item}`)
+      linkItem.innerHTML = item
       container.appendChild(linkItem)
     })
     // window.onload = function() {
