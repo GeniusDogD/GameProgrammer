@@ -50,8 +50,9 @@
     })
     var container = document.getElementById('container')
     idList.forEach((item, index) => {
+      console.log(`a${item}`)
       var linkItem = document.createElement('a')
-      linkItem.setAttribute('href', '#' + item)
+      linkItem.setAttribute('href', `a${item}`)
       container.appendChild(linkItem)
     })
     // window.onload = function() {
