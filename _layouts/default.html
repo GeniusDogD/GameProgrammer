@@ -27,7 +27,8 @@
       <h1 class="project-name">Game Programmer</h1>
 	</header>
 	
-	<div id="toc"></div>
+  <!-- <div id="toc"></div> -->
+  <div id="container"></div>
 	
 	<main id="content" class="main-content" role="main">
 		{{ content }}
@@ -38,9 +39,21 @@
 	
 	
 	
-	<script src="./toc.js"></script>
+	<!-- <script src="./toc.js"></script> -->
   
 	<script>
+    var list = document.querySelectorAll('h1') || []
+    var idList = []
+    list.forEach(function(item, index) {
+      var idItem = item.getAttribute('id')
+      idList.push(idItem)
+    })
+    var container = document.getElementById('container')
+    idList.forEach((item, index) => {
+      var linkItem = document.createElement('a')
+      linkItem.setAttribute('href', item)
+      container.appendChild(linkItem)
+    })
     // window.onload = function() {
     //   console.log(11111)
     //   var container = document.getElementById('toc')
