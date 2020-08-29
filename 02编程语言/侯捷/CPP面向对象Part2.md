@@ -30,21 +30,32 @@
 * template template parameter, 模板模板參數 
   * <img src="Media/CPP面向对象Part2/2020-08-17-00-01-21.png" style="zoom:50%;" />
 * variadic templates (since C++11) 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-26-35.png" style="zoom:50%;" />
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-27-52.png" style="zoom:50%;" />
   * <img src="Media/CPP面向对象Part2/2020-08-17-00-03-04.png" style="zoom:50%;" />
 * auto (since C++11) 
 * ranged-base for (since C++11) 
 * reference 
 * Composition (複合) 關係下的構造和析構 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-31-37.png" style="zoom:50%;" />
 * Inheritance (繼承) 關係下的構造和析構 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-32-08.png" style="zoom:50%;" />
 * Inheritance+Composition 關係下的構造和析構 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-32-26.png" style="zoom:50%;" />
 * 對象模型 (Object Model) ：關於 vptr 和 vtbl 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-34-03.png" style="zoom:50%;" />
 * 對象模型 (Object Model) ：關於 this 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-37-55.png" style="zoom:50%;" />
 * 對象模型 (Object Model) ：關於 Dynamic Binding 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-39-18.png" style="zoom:50%;" />
 * 談談 const 
+  * <img src="Media/CPP面向对象Part2/2020-08-29-22-41-12.png" style="zoom:50%;" />
 * 關於 new, delete 
+  * new 先分配 memory，再调用 ctor
 * 重載 ::operator new, ::operator delete 
 * 重載 ::operator new[], ::operator delete[] 
 * 重載 member operator new/delete 
+  * 内存管理
 * 重載 member operator new[] / delete[] 
 * 示例 
 * 重載 new(), delete() 
