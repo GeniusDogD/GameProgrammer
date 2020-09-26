@@ -68,9 +68,11 @@
 * 容器，结构与分类
   * <img src="Media/CPP标准库体系结构与内核分析/2020-09-02-21-49-28.png" style="zoom:50%;" />
 * 容器 list
+  * GCC 2.9 更清晰，注意前闭后开（环状）
 * list's iterator
   * <img src="Media/CPP标准库体系结构与内核分析/2020-09-02-22-10-09.png" style="zoom:50%;" />
   * <img src="Media/CPP标准库体系结构与内核分析/2020-09-02-22-25-24.png" style="zoom:50%;" />
-* 14
+* Iterator 组要遵循的原则
+* 15
 
 
