@@ -114,9 +114,9 @@
   * Destruction : from outside to inside
 * Construction and Destruction, when Inheritance+Composition 
 * Inheritance with virtual functions 
-  * non-vitual 函数，不希望子类重新定义（override 覆写）它
-  * vitual 函数，希望子类 override 它，且对它已有默认定义。
-  * pure vitual 函数 = 0，希望子类 override，且没有默认定义。
+  * non-virtual 函数，不希望子类重新定义（override 覆写）它
+  * virtual 函数，希望子类 override 它，且对它已有默认定义。
+  * pure virtual 函数 = 0，希望子类 override，且没有默认定义。
 * Virtual functions typical usage 1 : Template Method 
 * Virtual functions typical usage 2 : Polymorphism 
 * Virtual functions inside out : vptr, vtbl, and dynamic binding 

@@ -4,7 +4,8 @@
 
 # C++ Standard Library -- architecture & source
 
-* C++ Standard Library vs. Standard Template Library
+### C++ Standard Library vs. Standard Template Library
+
 * STL 六大部件
   * <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-11-42-25.png" style="zoom:50%;" />
 * STL 六大部件关系
@@ -74,5 +75,4 @@
   * <img src="Media/CPP标准库体系结构与内核分析/2020-09-02-22-25-24.png" style="zoom:50%;" />
 * Iterator 组要遵循的原则
 * 15
-
 
