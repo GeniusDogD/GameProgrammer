@@ -1,4 +1,4 @@
-# C++ 标准库与泛型编程
+# ### C++ 标准库与泛型编程
 
 * GP 使用 template 模板为工具来编写程序，STL 是 GP 最成功的作品。
 
@@ -6,42 +6,57 @@
 
 ### C++ Standard Library vs. Standard Template Library
 
-* STL 六大部件
-  * <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-11-42-25.png" style="zoom:50%;" />
-* STL 六大部件关系
-  * <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-11-53-31.png" style="zoom:50%;" />
-* 复杂度，Complexity，Big-oh
-    |  标识符   | 含义  |
-    |  ----  | ----  |
-    | O(1) 或 O(c)  | 常数时间 constant time  |
-    | O(n)  | 线性时间 linear time |
-    | O(log2n) | 次线性时间 sub-linear time |
-    | O(n2) | 平方时间 quadratic time |
-    | O(n3) | 立方时间 cubic time |
-    | O(2n) | 指数时间 exponential time|
-    | O(nlog2n) | 介于线性及二次方成长的中间行为模式 |
-* “前闭后开”区间，[ )
-  * begin() 指向第一个，end() 是最后的下一个
-* range-based `for` statement (since C++11)
-* `auto` keyword (since C++11)
-* 容器-结构与分类
-  * <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-13-44-53.png" style="zoom:50%;" />
-  * array
-  * vector
+### STL 六大部件
+
+* <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-11-42-25.png" style="zoom:50%;" />
+
+### STL 六大部件关系
+
+* <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-11-53-31.png" style="zoom:50%;" />
+
+### 复杂度，Complexity，Big-oh
+
+|  标识符   | 含义  |
+|  ----  | ----  |
+| O(1) 或 O(c)  | 常数时间 constant time  |
+| O(n)  | 线性时间 linear time |
+| O(log2n) | 次线性时间 sub-linear time |
+| O(n2) | 平方时间 quadratic time |
+| O(n3) | 立方时间 cubic time |
+| O(2n) | 指数时间 exponential time|
+| O(nlog2n) | 介于线性及二次方成长的中间行为模式 |
+
+### “前闭后开”区间，[ )
+
+* begin() 指向第一个，end() 是最后的下一个
+
+### range-based `for` statement (since C++11)
+
+### `auto` keyword (since C++11)
+
+### 容器-结构与分类
+
+* <img src="Media/CPP标准库体系结构与内核分析/2020-08-30-13-44-53.png" style="zoom:50%;" />
+
+### 使用容器
+
+* array
+* vector
   * list
-  * forwarlist
-  * slist，GNU C 非标准
-  * deque
-  * stack，内部是 deque，容器适配器 container adpater
-  * queue，内部是 deque，容器适配器 container adpater
-  * multiset
-  * multimap
-  * unordered_multiset, hash_multiset
-  * unordered_multimap, hash_multimap 
-  * set
-  * map
-  * unorderd_set, hash_set
-  * unorderd_map, hash_map
+* forwarlist
+* slist，GNU C 非标准
+* deque
+* stack，内部是 deque，容器适配器 container adpater
+* queue，内部是 deque，容器适配器 container adpater
+* multiset
+* multimap
+* unordered_multiset, hash_multiset
+* unordered_multimap, hash_multimap 
+* set
+* map
+* unorderd_set, hash_set
+* unorderd_map, hash_map
+
 * 分配器 allocator
   * 不要单独使用，应该在容器内使用
 * 标准库版本，Visual C++, GNU C++
