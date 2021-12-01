@@ -1,14 +1,14 @@
 # Intro
 
-![image-20211114231700027](C:\Users\yiminduan\AppData\Roaming\Typora\typora-user-images\image-20211114231700027.png)
+http://games-cn.org/games103/
 
-![image-20211114231909272](C:\Users\yiminduan\AppData\Roaming\Typora\typora-user-images\image-20211114231909272.png)
+[阿里云盘分享 (aliyundrive.com)](https://www.aliyundrive.com/s/YGuzfDCzw4n/folder/61824d985307bbf3920044b4afd48abb633441f6)
+
+![image-20211201145219492](Media/01_Intro/image-20211201145219492.png)
 
 ## 阅读课外文献，老的论文关注跟课程相关部分即可
 
-![image-20211114232345412](C:\Users\yiminduan\AppData\Roaming\Typora\typora-user-images\image-20211114232345412.png)
-
-![image-20211114232652954](Media/01_Intro/image-20211114232652954.png)
+![image-20211201145238994](Media/01_Intro/image-20211201145238994.png)
 
 # **Issues for Discussion Today**
 
