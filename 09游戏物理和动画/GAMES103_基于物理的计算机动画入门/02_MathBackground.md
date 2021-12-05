@@ -105,3 +105,54 @@ p 跑到外面去，就会出现负面积。利用重心权重，可以进行重
 对称且正定
 
 ![image-20211201170534917](Media/02_MathBackground/image-20211201170534917.png)
+
+通过数值计算特征值分解是很慢的，实际使用。（没有概念有点懵）
+
+![image-20211205230128568](Media/02_MathBackground/image-20211205230128568.png)
+
+![image-20211205230617624](Media/02_MathBackground/image-20211205230617624.png)
+
+# **Linear Solver** 线性问题
+
+很多数值问题最后就是解线性方程
+
+不直接求逆，一般用直接法和迭代法
+
+![image-20211205231203637](Media/02_MathBackground/image-20211205231203637.png)
+
+## **Direct Linear Solver**
+
+LU 分解
+
+![image-20211205231429783](Media/02_MathBackground/image-20211205231429783.png)
+
+![image-20211205231526601](Media/02_MathBackground/image-20211205231526601.png)
+
+## **Iterative Linear Solver** 迭代法
+
+数值分析
+
+![ ](Media/02_MathBackground/image-20211205232714885.png)
+
+直接法可能要写几周，迭代法一天就够了。迭代法比较容易并行，缺点：收敛性问题。relaxation 手动调
+
+![image-20211205234040992](Media/02_MathBackground/image-20211205234040992.png)
+
+# **Tensor Calculus**
+
+![image-20211206000635342](Media/02_MathBackground/image-20211206000635342.png)
+
+![image-20211206000931896](Media/02_MathBackground/image-20211206000931896.png)
+
+![image-20211206001115665](Media/02_MathBackground/image-20211206001115665.png)
+
+前面讲的正定，跟函数的二阶导数有关系
+
+![image-20211206001459166](Media/02_MathBackground/image-20211206001459166.png)
+
+![image-20211206001614414](Media/02_MathBackground/image-20211206001614414.png)
+
+![image-20211206001750316](Media/02_MathBackground/image-20211206001750316.png)
+
+![image-20211206002307134](Media/02_MathBackground/image-20211206002307134.png)
+
