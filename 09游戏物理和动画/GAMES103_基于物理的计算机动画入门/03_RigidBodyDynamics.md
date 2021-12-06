@@ -46,5 +46,24 @@
 
 ![image-20211206004548327](Media/03_RigidBodyDynamics/image-20211206004548327.png)
 
+万向节锁死，时间导数不直观
+
 ![image-20211206004630272](Media/03_RigidBodyDynamics/image-20211206004630272.png)
 
+某些情况下，自由度降低。右边出现了轴重合，只有 2 种旋转模式了。
+
+![image-20211206195824986](Media/03_RigidBodyDynamics/image-20211206195824986.png)
+
+## **Rotation Represented by Quaternion** 四元数
+
+复数空间定义了加减乘除，向量只有加减。跟虚数有点像，用 4 维来表示 3 维的加减乘除
+
+![image-20211206200147573](Media/03_RigidBodyDynamics/image-20211206200147573.png)
+
+![image-20211206200409289](Media/03_RigidBodyDynamics/image-20211206200409289.png)
+
+![image-20211206200531907](Media/03_RigidBodyDynamics/image-20211206200531907.png)
+
+![image-20211206200718758](Media/03_RigidBodyDynamics/image-20211206200718758.png)
+
+![image-20211206200855830](Media/03_RigidBodyDynamics/image-20211206200855830.png)
