@@ -26,7 +26,7 @@ k 也跟距离有关，利用小步长来避免穿透
 
 ![image-20211213011903622](Media/04_RigidContacts/image-20211213011903622.png)
 
-## **Impulse Method** (冲动)
+## **Impulse Method** (立刻生效)
 
 Penalty 施加力需要下一帧才生效，Impulse 是立刻生效
 
