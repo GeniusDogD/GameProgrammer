@@ -97,3 +97,59 @@ PBD 的改进版
 ![image-20220104203237169](Media/06_ConstraintApproaches/image-20220104203237169.png)
 
 # **Projective Dynamics**
+
+PBD 直接修改顶点位置，Projective Dynamics 使用 projection 投影方法来定义一个 quadratic 能量
+
+![image-20220105101243213](Media/06_ConstraintApproaches/image-20220105101243213.png)
+
+构造了中间变量，得到了跟弹簧模拟一样的结果。原因在于 Hessian，变成了常数矩阵。
+
+![image-20220105101445969](Media/06_ConstraintApproaches/image-20220105101445969.png)
+
+有了 Hessian 矩阵就可以计算隐式积分，分解一次后既可以简单迭代求解。
+
+模拟结果收敛的好坏，由 Hessian 是否合适决定。
+
+![image-20220105102134274](Media/06_ConstraintApproaches/image-20220105102134274.png)
+
+![image-20220105102431985](Media/06_ConstraintApproaches/image-20220105102431985.png)
+
+![image-20220105103150270](Media/06_ConstraintApproaches/image-20220105103150270.png)
+
+# 为什么游戏中用 PBD 比较多？不是计算量的问题，而是内存访问
+
+这些公式的计算其实非常快，慢的原因是对内存的访问速度，GPU Buffer。PBD 的好处不是计算少或者效果好，而是对内存的访问非常少，只需要访问顶点位置和修改。而其他物理的方式会有其它变量，导致内存开销变大。
+
+
+
+# **Constrained Dynamics** 强约束防止关节分开
+
+Stiff 的效果需要增加迭代次数，导致计算量变大。适合模拟关节，约束力很强，否则四肢会分开来。
+
+最大的好处是可以处理  Stiffness 无穷大
+
+![image-20220105103242301](Media/06_ConstraintApproaches/image-20220105103242301.png)
+
+![image-20220105103732798](Media/06_ConstraintApproaches/image-20220105103732798.png)
+
+![image-20220105104035963](Media/06_ConstraintApproaches/image-20220105104035963.png)
+
+直接法：需要正定，否则很多线性方法用不了
+
+迭代法：有时候不容易构造矩阵，不稀疏
+
+最大的好处是可以处理  Stiffness 无穷大
+
+## •Articulated Rigid Bodies (ragdoll animation)
+
+# **Stable Constrained Dynamics**
+
+![image-20220105104528024](Media/06_ConstraintApproaches/image-20220105104528024.png)
+
+![image-20220105104531458](Media/06_ConstraintApproaches/image-20220105104531458.png)
+
+![image-20220105104536260](Media/06_ConstraintApproaches/image-20220105104536260.png)
+
+# 总结
+
+![image-20220105104542122](Media/06_ConstraintApproaches/image-20220105104542122.png)
