@@ -6,6 +6,20 @@ http://games-cn.org/games103/
 
 ![image-20211201145219492](Media/01_Intro/image-20211201145219492.png)
 
+辅助资料：
+
+[麻省理工公开课：线性代数-网易公开课 (163.com)](https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Fdaishu.html)
+
+​	[MIT—线性代数笔记00 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/45707832)
+
+[麻省理工学院公开课：单变量微积分-网易公开课 (163.com)](https://open.163.com/newview/movie/courseintro?newurl=M6GLI5A07)
+
+[麻省理工学院公开课：多变量微积分-网易公开课 (163.com)](https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Fmultivariable.html)
+
+
+
+
+
 ## 阅读课外文献，老的论文关注跟课程相关部分即可
 
 ![image-20211201145238994](Media/01_Intro/image-20211201145238994.png)
