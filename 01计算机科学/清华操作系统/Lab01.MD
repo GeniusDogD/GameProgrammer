@@ -132,9 +132,9 @@ https://github.com/objectkuan/ucore_pub/blob/master/doc/lab1.pdf
 1. ucore.img 是如何一步步生成的？
 2. 一个被系统认为是符合规范的硬盘主引导扇区特征是什么
 
-调试 Makefile
 
-    make V=
-    详细查看 make 执行了哪些命令
-
-
+* 调试 Makefile
+  * make V=
+  * 详细查看 make 执行了哪些命令
+* lab1_result/sign.c
+  * 完成了特征标记
